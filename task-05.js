@@ -1,5 +1,5 @@
 const country = prompt('Введите название страны в которую будет совершена доставка');
-const inLowerCaseCountry = country.toLowerCase(prompt());
+const inLowerCaseCountry = country.toLowerCase();
 const china = 'китай';
 const chili = 'чили';
 const australia = 'австралия';
@@ -35,5 +35,4 @@ switch (inLowerCaseCountry) {
 
 	default:
 		console.log(alert('В вашей стране доставка не доступна =('));
-		break;
 }
