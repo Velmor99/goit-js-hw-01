@@ -10,5 +10,5 @@ if (quantityDroids * pricePerDroid > credits) {
 	console.log(alert('Недостаточно средств на счету!'));
 }
 if (quantityDroids * pricePerDroid < credits) {
-	console.log(alert(`Вы купили ${totalDroids} дроидов, на счету осталось ${balance} кредитов.`));
+	console.log(alert(`Вы купили ${quantityDroids} дроидов, на счету осталось ${balance} кредитов.`));
 }
